@@ -1,0 +1,50 @@
+.cabecalho {
+    background-color: rgb(165, 105, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: white;
+  }
+  
+  .pix {
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    text-transform: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #f2f2f2;
+  }
+  
+  .navbar {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    list-style: none;
+    align-items: center;
+  }
+  
+  li {
+    padding: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .navbar {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
